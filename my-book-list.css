@@ -1,5 +1,91 @@
+feature/wantToRead
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #3eb2e7;
+    padding: 1em;
+    position: relative;
+}
+
+nav button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #45a049;
+}
+
+/* Book list and card styles */
+.book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.book-card h3 {
+    margin: 0;
+}
+
+.book-card p {
+    margin: 0.5em 0 0 0;
+}
+
+/* Popup styles */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+=======
 .navbar-styling {
   background-color: rgb(192, 32, 224);
   border-bottom: 1px solid black;
   text-align: center;
+main
 }
