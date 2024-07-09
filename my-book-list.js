@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         saveBookToLocalStorage(title, author);
 
         bookForm.reset();
-        // Close Bootstrap modal
         const modal = new bootstrap.Modal(document.getElementById('addBookModal'));
         modal.hide();
     });
