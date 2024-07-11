@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const bookForm = document.getElementById('bookForm');
-    const bookList = document.getElementById('bookList');
+    const wantToReadList = document.getElementById('wantToRead');
 
     bookForm.addEventListener('submit', (event) => {
         event.preventDefault();
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 <h5 class="card-title">${title}</h5>
                 <p class="card-text">by ${author}</p>
             </div>`;
-        bookList.appendChild(bookCard);
+        wantToReadList.appendChild(bookCard);
     }
 
     function saveBookToLocalStorage(title, author) {

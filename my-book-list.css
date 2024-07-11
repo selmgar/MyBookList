@@ -5,24 +5,51 @@ body {
 
 /* Navigation styles */
 nav {
-    background-color: #3eb2e7;
+    background-color: #49516F;
     padding: 1em;
     position: relative;
 }
 
-nav button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 0.5em 1em;
-    border: none;
-    cursor: pointer;
+/* .navbar-brand is a bootstrap class. We are overriding the default color */
+.navbar-brand {
+    color: #fff !important;
 }
 
-nav button:hover {
-    background-color: #45a049;
+/* overriding bootstraps transparent background color for buttons and font-color */
+.add-button {
+  background: #7587AE !important;
+  color: #fff !important;
+}
+.add-button:hover {
+  background: #93aada !important;
 }
 
 /* Book list and card styles */
+.container-styling {
+  padding: 20px;
+  border-radius: 22px;
+}
+
+.container-styling h4 {
+  color: white;
+}
+
+.want-to-read {
+  background-color: #5B6F9A;
+}
+
+.currently-reading {
+  background-color: #8195BF;
+}
+
+.finished-reading {
+  background-color: #A7B8DC;
+}
+
+.graveyard {
+  background-color: #6279B8;
+}
+
 .book-list {
     display: flex;
     flex-direction: column;
