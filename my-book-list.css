@@ -55,6 +55,7 @@ nav {
     flex-direction: column;
     gap: 1em;
     margin: 1em 0;
+    min-height: 200px; /* had to add this to make the dropzone work */
 }
 
 .book-card {
